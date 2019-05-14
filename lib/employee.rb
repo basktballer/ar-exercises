@@ -11,6 +11,7 @@ class Employee < ActiveRecord::Base
 
   private
     def set_password
+      
       # after create
       # emp = Employee.where(id: self.id)
       # emp.update(password: ('a'..'z').to_a.shuffle[0,8].join)
